@@ -16,26 +16,40 @@ It was originally developed by Google and is now maintained by the Cloud Native 
 **Master Node**
 
 **API Server:** The main entry point to the cluster for managing resources via RESTful API calls.
+
 **Scheduler:** Assigns workloads to nodes based on resource availability and policies.
+
 **Controller Manager:** Ensures the desired state of the cluster (e.g., maintaining replicas).
+
 **etcd:** A distributed key-value store for storing cluster state and configuration.
 
 **Worker Node**
 
 **Kubelet:** An agent that ensures containers are running in a pod on a node.
+
 **Kube-proxy:** Handles networking and load balancing for services.
+
 **Container Runtime:** Software responsible for running containers (e.g., Docker, containers).
 
 
 ## Use Case of Kubernetes
+
 **Microservices:** Deploying and managing loosely coupled services.
+
+
 **CI/CD Pipelines:** Automating application build, testing, and deployment.
+
 **Hybrid Cloud Deployments:** Managing workloads across on-premises and cloud environments.
+
 **Big Data and AI/ML:** Running data pipelines and training machine learning models.
 
 ## Getting Started with Kubernetes
+
 **Minikube:** A lightweight tool for running Kubernetes locally.
+
 **kubectl:** A CLI tool to interact with a Kubernetes cluster.
+
 **Kubeadm:** Provide Multiple node cluster
+
 **Cloud Providers:** Managed Kubernetes services like Google Kubernetes Engine (GKE), Amazon Elastic Kubernetes Service (EKS), and Azure Kubernetes Service (AKS).
 
