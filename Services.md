@@ -120,7 +120,7 @@ kubectl get node -o wide
 ![image](https://github.com/user-attachments/assets/2e160b9e-7612-43d7-a560-336301f1a7cf)
 
 
-![image](https://github.com/user-attachments/assets/65d7c8e9-4188-47ea-8402-2af7d11c0acf)
+![Screenshot 2025-01-10 144105](https://github.com/user-attachments/assets/c32b9a72-aed6-4c47-8650-10b32ca51caf)
 
 
 **3.LoadBalancer:**
