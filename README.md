@@ -14,15 +14,15 @@ It was originally developed by Google and is now maintained by the Cloud Native 
 ![image](https://github.com/user-attachments/assets/91ae313f-562f-4537-bb28-0b62e91e4c9f)
 
 **Master Node**
-API Server: The main entry point to the cluster for managing resources via RESTful API calls.
-Scheduler: Assigns workloads to nodes based on resource availability and policies.
-Controller Manager: Ensures the desired state of the cluster (e.g., maintaining replicas).
-etcd: A distributed key-value store for storing cluster state and configuration.
+**API Server:** The main entry point to the cluster for managing resources via RESTful API calls.
+**Scheduler:** Assigns workloads to nodes based on resource availability and policies.
+**Controller Manager:** Ensures the desired state of the cluster (e.g., maintaining replicas).
+**etcd:** A distributed key-value store for storing cluster state and configuration.
 
 **Worker Node**
-Kubelet: An agent that ensures containers are running in a pod on a node.
-Kube-proxy: Handles networking and load balancing for services.
-Container Runtime: Software responsible for running containers (e.g., Docker, containerd).
+**Kubelet:** An agent that ensures containers are running in a pod on a node.
+**Kube-proxy:** Handles networking and load balancing for services.
+**Container Runtime:** Software responsible for running containers (e.g., Docker, containers).
 
 
 ## Use Case of Kubernetes
