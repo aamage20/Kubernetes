@@ -8,7 +8,7 @@ and Kubernetes ensures that the state is achieved and maintained.
 - Deployment are commonly used for the resources managing stateless application in kubernetes.
 
 
-  ````
+````
 apiVersion: apps/v1
 kind: Deployment
 metadata:
