@@ -50,8 +50,6 @@ spec:
 NodePort is a type of Kubernetes service that exposes an application running in a cluster to external traffic. 
 It allows external users to access a service using a port on each node of the cluster.
 
-**NodePort IP range is 30000 - 32767**
-
 ### Node Port Range 30000 - 32767
 
 ````
