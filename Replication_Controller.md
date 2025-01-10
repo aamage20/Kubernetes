@@ -9,8 +9,11 @@ The replication controller uses the selector to determine how many pod instances
 **There are two types of selector**
 1. Equality based (Key Value Pair) : this selector is used in Replication Controller
 2. Set Based
-   i. IN
+
+   i. In
+
    ii. Not In
+
    iii. Exist
 
 ````
